@@ -64,13 +64,17 @@ export default function LandingPage() {
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
             </Button>
-
-            <Button variant="outline" size="lg" disabled className="px-8 py-3">
-              <ImageIcon className="w-4 h-4 mr-2" />
-              Demo Image Model
-              <Badge variant="secondary" className="ml-2 text-xs">
-                Coming Soon
-              </Badge>
+          
+            <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3">
+              <Link
+                href="https://obesitylevelappdeployment-e47a9ba5p2xhlrev764p9l.streamlit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Database className="w-4 h-4 mr-2" />
+                Demo Image Model
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Link>
             </Button>
 
             <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3">
@@ -163,9 +167,7 @@ export default function LandingPage() {
                   for healthcare applications.
                 </CardDescription>
                 <div className="mt-4 text-center">
-                  <Badge variant="outline" className="text-emerald-600 border-emerald-200">
-                    Coming Soon
-                  </Badge>
+                  <Badge className="bg-emerald-600 text-white">Available Now</Badge>
                 </div>
               </CardContent>
             </Card>

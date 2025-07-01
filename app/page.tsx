@@ -67,7 +67,7 @@ export default function LandingPage() {
           
             <Button asChild size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3">
               <Link
-                href="https://obesitylevelappdeployment-e47a9ba5p2xhlrev764p9l.streamlit.app/"
+                href="https://catsdogsclassificationapp-9h6hwafbquguahqecyqiy2.streamlit.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
